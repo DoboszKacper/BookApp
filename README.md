@@ -7,11 +7,11 @@ This is my book search web application. It contains all my favourite books that 
       
 ## How To Deploy Docker
 All you need to do is to go to "Docker for BookApp" folder with cd commend and deploy docker contener with docker compose commend:
-      ```diff      
+      ```      
         docker-commpose up
       ```
 After that all what is needed is to use adminer to load sql code from "Docker for BookApp" folder. Credentials to log into adminer are here:<br>
-      User: root<br>
-      Password: 123<br>
-      Database name: books<br>
-      Server name: books<br>
+ #### User: root<br>
+ #### Password: 123<br>
+ #### Database name: books<br>
+ #### Server name: books<br>
