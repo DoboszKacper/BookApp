@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+   books:
+    image: mysql:latest
+    environment:
+        MYSQL_ROOT_PASSWORD: 123
+        MYSQL_DATABASE: books
+    ports:
+            - "3306:3306"
+
+   adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
